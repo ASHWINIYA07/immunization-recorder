@@ -1,4 +1,4 @@
-from database import connect_db
+from feature.database.database import connect_db
 
 def fetch_child_records(child_id):
     conn = connect_db()
