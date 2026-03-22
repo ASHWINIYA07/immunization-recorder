@@ -1,4 +1,4 @@
-from database import connect_db
+from feature.database.database import connect_db
 
 def add_child(name, dob, gender, parent_name, phone, address):
     conn = connect_db()

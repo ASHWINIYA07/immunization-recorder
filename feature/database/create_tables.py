@@ -1,4 +1,4 @@
-from database import connect_db
+from feature.database.database import connect_db
 
 def create_tables():
     conn = connect_db()

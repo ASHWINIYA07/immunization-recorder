@@ -1,4 +1,4 @@
-from database import connect_db
+from feature.database.database import connect_db
 
 def update_record(record_id, status):
     conn = connect_db()

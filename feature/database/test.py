@@ -1,5 +1,5 @@
-from create_tables import create_tables
-from insert_data import add_child
+from feature.database.create_tables import create_tables
+from feature.database.insert_data import add_child
 
 # Create tables first
 create_tables()
